@@ -1,0 +1,31 @@
+function [mensagemStatus] = verificaPIN(segmentoPIN,sepComp,sepRep,carEsc,sepSubComp)
+
+[campos,posicao]=extraiCampos(segmentoEVN);
+
+
+mensagemStatus='';
+
+
+if size(find(posicao==0),2)~=0
+    if strcmp(campos(1,1),'PID')==1
+        if(size(find(posicao==3),2)~=0)
+            if size(char(campos(1,find(posicao==3))),2)<=20
+                if(size(find(posicao==5),2)~=0)
+                    if size(char(campos(1,find(posicao==5))),2)>48
+                        mensagemStatus=strvcat(mensagemStatus,'PID campo 5: Limite de caracteres excedido');
+                    end
+                else
+                    mensagemStatus=strvcat(mensagemStatus,'PID campo 5: Campo Obrigatório');
+                end                
+            else
+                mensagemStatus=strvcat(mensagemStatus,'PID campo 3: Limite de caracteres excedido');
+            end                                
+        else
+            mensagemStatus=strvcat(mensagemStatus,'PID campo 3: Campo ');
+        end
+    else
+
+    end
+else
+
+end

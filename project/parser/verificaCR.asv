@@ -1,0 +1,9 @@
+function resultado = verificaCR(segmentos)
+
+    nSegmentos=size(segmentos,1);
+    
+    
+    for i=1:nSegmentos
+        posCR=strfind(segmentos(i,:),'<CR>');
+        if
+    end
