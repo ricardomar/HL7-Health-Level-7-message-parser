@@ -8,7 +8,7 @@
 ## Outputs:
 - Software tool (with graphical user interface) programmed in MATLAB. The source code and documentation of the application is available here.
 - A video demonstrating the software tool in operation is presented next:
-[![alt text](https://img.youtube.com/vi/5QkpqAalsLc/0.jpg)](http://example.com/link "title")
+[![alt text](https://img.youtube.com/vi/5QkpqAalsLc/0.jpg)](https://youtu.be/5QkpqAalsLc)
 
 
 - Software tool developed in collaboration with Joao Duarte and Edite Figueiras during the Medical Informatics course.
