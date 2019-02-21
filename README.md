@@ -8,6 +8,9 @@
 ## Outputs:
 - Software tool (with graphical user interface) programmed in MATLAB. The source code and documentation of the application is available here.
 - A video demonstrating the software tool in operation is presented next:
+
+- [Demo video 01](https://youtu.be/5QkpqAalsLc)
+
 [![alt text](https://img.youtube.com/vi/5QkpqAalsLc/0.jpg)](https://youtu.be/5QkpqAalsLc)
 
 
