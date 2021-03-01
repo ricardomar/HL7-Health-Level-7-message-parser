@@ -1,4 +1,5 @@
 # HL7 Health Level 7 message parser
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4570497.svg)](https://doi.org/10.5281/zenodo.4570497)
 
 
 ## Objectives:
